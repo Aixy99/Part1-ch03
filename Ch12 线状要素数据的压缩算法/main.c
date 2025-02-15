@@ -22,7 +22,7 @@ int main() {
 	FILE* fp = fopen(outputPointFileName, "w");
 	for (int i = 0; i < pointData->size; i++) {
 		if (pointData->data[i].num == 0) continue;
-		fprintf(fp, "%lf %lf\n", pointData->data[i].x, pointData->data[i].y);
+		fprintf(fp, "%d %lf %lf\n", pointData->data[i].num, pointData->data[i].x, pointData->data[i].y);
 	}
 
 	freePointArray(pointData);

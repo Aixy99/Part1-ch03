@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define D_T 50
+#define D_T 100
 
 typedef struct {
 	int num;
