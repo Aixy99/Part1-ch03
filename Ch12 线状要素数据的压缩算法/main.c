@@ -24,7 +24,6 @@ int main() {
 		if (pointData->data[i].num == 0) continue;
 		fprintf(fp, "%lf %lf\n", pointData->data[i].x, pointData->data[i].y);
 	}
-
 	freePointArray(pointData);
 	return 0;
 }
