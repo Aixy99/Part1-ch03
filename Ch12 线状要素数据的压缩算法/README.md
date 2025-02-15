@@ -1,4 +1,4 @@
 
-![[../data/‘≠ º.png]]
+![[../data/orginal.png]]
 
-![[../data/dp—πÀı.png]]
+![[../data/dp.png]]
